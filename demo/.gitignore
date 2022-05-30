@@ -2,8 +2,30 @@
 catdog/catdog.h5
 
 # gitignore for demo purposes
-./**/.dockerignore
-./**/.gitignore
-./**/Dockerfile
-./**/requirements.txt
-./**/main.py
+titanic/.dockerignore
+titanic/.gitignore
+titanic/Dockerfile
+titanic/requirements.txt
+titanic/main.py
+titanic/venv/
+
+mnist/.dockerignore
+mnist/.gitignore
+mnist/Dockerfile
+mnist/requirements.txt
+mnist/main.py
+mnist/venv/
+
+churn/.dockerignore
+churn/.gitignore
+churn/Dockerfile
+churn/requirements.txt
+churn/main.py
+churn/venv/
+
+catdog/.dockerignore
+catdog/.gitignore
+catdog/Dockerfile
+catdog/requirements.txt
+catdog/main.py
+catdog/venv/
