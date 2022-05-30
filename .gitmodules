@@ -1,0 +1,4 @@
+[submodule "myx"]
+	path = myx
+	url = git@github.com:mkamadeus/myx.git
+	branch = main

@@ -1,0 +1,9 @@
+# model result >50MB
+catdog/catdog.h5
+
+# gitignore for demo purposes
+./**/.dockerignore
+./**/.gitignore
+./**/Dockerfile
+./**/requirements.txt
+./**/main.py
