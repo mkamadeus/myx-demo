@@ -1,5 +1,12 @@
 all: titanic churn mnist catdog
 
+# build myx binary
+build:
+	cd myx && \
+		make setup && make build
+.PHONY: build
+
+# setup projects
 titanic:
 	cd myx && \
 		./myx ../demo/titanic/spec.yaml -o ../demo/titanic/
@@ -17,6 +24,7 @@ catdog:
 		./myx ../demo/catdog/spec.yaml -o ../demo/catdog/
 .PHONY: catdog
 
+# clean projects
 clean:
 	cd demo && \
 		./clean.sh
