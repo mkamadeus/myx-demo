@@ -16,3 +16,7 @@ catdog:
 	cd myx && \
 		./myx ../demo/catdog/spec.yaml -o ../demo/catdog/
 .PHONY: catdog
+
+clean:
+	cd demo && \
+		./clean.sh

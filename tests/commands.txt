@@ -1,0 +1,1 @@
+./myx ./examples/titanic/spec.yaml -o ./examples/titanic
